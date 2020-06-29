@@ -11,6 +11,13 @@ Python3, Jupyter Notebook, Numpy, Pandas, Matplotlib, Scikit-learn
 
 ## 単回帰分析
 
+傾き$a$の計算式
+
+$$
+a = \dfrac{\displaystyle{\sum_{n=1}^{N}}x_{n}y_{n}}
+{\displaystyle{\sum_{n=1}^{N}}x_{n}^{2}}
+$$
+
 <img width="1234" alt="スクリーンショット 2020-06-27 14 24 01" src="https://user-images.githubusercontent.com/50135286/85981626-7a7d3580-ba1f-11ea-9790-0390bb0f47ad.png">
 
 単回帰分析による家賃の内挿予測値算出です。
@@ -55,7 +62,9 @@ a = (Σxn * yn) / (Σ xn^2)
   
 ## 重回帰分析
 
-<img width="1199" alt="スクリーンショット 2020-06-29 15 51 00" src="https://user-images.githubusercontent.com/50135286/85982208-62f27c80-ba20-11ea-8088-1f68e83d7d92.png">
+$\boldsymbol{w} = (\boldsymbol{X}^{T}\boldsymbol{X})^{-1}\boldsymbol{X}^{T}\boldsymbol{y}$
+
+![image](https://user-images.githubusercontent.com/50135286/85982627-22dfc980-ba21-11ea-9f6e-9dac95a5b9b6.png)
 
 統計学学習後に補足予定（2020/06/29現在）
 
