@@ -11,7 +11,7 @@ Python3, Jupyter Notebook, Numpy, Pandas, Matplotlib, Scikit-learn
 
 ## 単回帰分析
 
-傾き$a$の計算式
+傾き$a$の計算式（TEX表記）
 
 $$
 a = \dfrac{\displaystyle{\sum_{n=1}^{N}}x_{n}y_{n}}
@@ -61,6 +61,8 @@ a = (Σxn * yn) / (Σ xn^2)
 　　
   
 ## 重回帰分析
+
+パラーメータw(重み)の計算式 (TEX表記)
 
 $\boldsymbol{w} = (\boldsymbol{X}^{T}\boldsymbol{X})^{-1}\boldsymbol{X}^{T}\boldsymbol{y}$
 
